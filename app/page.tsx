@@ -3961,7 +3961,7 @@ function shuffle<T>(arr: T[]): T[] {
   return [...arr].sort(() => Math.random() - 0.5);
 }
 
-const QUIZ_SIZE = 20;
+const QUIZ_SIZE = 50;
 
 const SECTION_ORDER = [
   "all",
