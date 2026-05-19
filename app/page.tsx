@@ -18,6 +18,372 @@ type AnswerRecord = {
 
 const ALL_QUESTIONS: Question[] = [
   {
+    section: "Giáo lý hôn nhân",
+    question: "Hôn nhân là gì?",
+    options: [
+      "Hôn nhân là một giao ước giữa một người nam và một người nữ, có mục đích yêu thương nâng đỡ nhau trong tình vợ chồng, sinh sản và giáo dục con cái.",
+      "Hôn nhân là một giao ước giữa hai người, có mục đích yêu thương nâng đỡ nhau trong tình vợ chồng, sinh sản và giáo dục con cái.",
+      "Hôn nhân là một giao ước giữa một người nam và một người nữ, có mục đích yêu thương nâng đỡ nhau trong tình vợ chồng.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Hôn nhân Công giáo là gì?",
+    options: [
+      "Hôn nhân Công giáo là Hôn nhân giữa hai người cùng theo Đạo Công giáo.",
+      "Hôn nhân Công giáo là Hôn nhân được Chúa Giê-su nâng lên hàng Bí tích.",
+      "Hôn nhân Công giáo là Hôn nhân giữa hai người cùng theo Đạo Công giáo, hoặc giữa một người theo Đạo Công Giáo và một người không theo.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Bí tích Hôn nhân ban cho đôi bạn những ơn nào?",
+    options: [
+      "Bí tích Hôn nhân thánh hóa tình yêu vợ chồng và ban nhiều ơn đặc biệt, giúp họ chu toàn nghĩa vụ đối với người bạn đời của mình.",
+      "Bí tích Hôn nhân thánh hóa tình yêu vợ chồng và ban nhiều ơn đặc biệt, giúp họ chu toàn nghĩa vụ đối với người bạn đời của mình và đối với con cái.",
+      "Bí tích Hôn nhân thánh hóa tình yêu vợ chồng và ban nhiều ơn đặc biệt, giúp họ chu toàn nghĩa vụ đối với người bạn đời của mình, đó là yêu thương và tôn trọng nhau suốt đời.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Mẫu mực của Hôn nhân Công giáo là gì?",
+    options: [
+      "Mẫu mực của Hôn nhân Công giáo là gương sống của Gia đình Thánh Gia Na-da-rét.",
+      "Mẫu mực của Hôn nhân Công giáo là đời sống của Thiên Chúa Ba Ngôi.",
+      "Mẫu mực của Hôn nhân Công giáo là tình yêu giữa Chúa Ki-tô và Hội Thánh.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Tình yêu giữa Chúa Ki-tô và Hội Thánh có những đặc điểm nào?",
+    options: [
+      "Tình yêu giữa Chúa Ki-tô và Hội Thánh là sự kết hợp phong phú giữa Chúa Ki-tô và Hội Thánh.",
+      "Tình yêu giữa Chúa Ki-tô và Hội Thánh là sự hiến thân trọn vẹn của Chúa Ki-tô cho Hội Thánh.",
+      "Tình yêu giữa Chúa Ki-tô và Hội Thánh là sự trung tín tuyệt đối của Chúa Ki-tô đối với Hội Thánh.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 3,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Hôn nhân Công giáo có mấy đặc tính?",
+    options: [
+      "Hôn nhân Công giáo có hai đặc tính là: Đơn hôn (một vợ một chồng) và Tôn trọng nhau suốt đời.",
+      "Hôn nhân Công giáo có hai đặc tính là: Đơn hôn (một vợ một chồng) và Yêu thương cùng tôn trọng nhau suốt đời.",
+      "Hôn nhân Công giáo có hai đặc tính là: Đơn hôn (một vợ một chồng) và Bất khả phân ly (không được ly hôn).",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Nền tảng của hai đặc tính Đơn hôn và Bất khả phân ly là gì?",
+    options: [
+      "Nền tảng của hai đặc tính ấy là ý định gắn bó với nhau trọn đời của đôi bạn.",
+      "Nền tảng của hai đặc tính ấy là ý định của Thiên Chúa về Hôn nhân.",
+      "Nền tảng của hai đặc tính ấy là ý định gắn bó với nhau trọn đời của đôi bạn cũng như của gia đình hai bên.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Chúa dạy gì về Hôn nhân?",
+    options: [
+      'Chúa dạy rằng: "Thuở ban đầu, Đấng Tạo Hóa đã làm ra con người có nam có nữ" và Người đã phán: "Vì thế, người đàn ông sẽ lìa cha mẹ mà gắn bó với vợ mình và cả hai sẽ thành một xương một thịt. Vậy sự gì Thiên Chúa đã phối hợp, loài người không được phân li".',
+      'Chúa dạy rằng: "Vì thế, người đàn ông sẽ lìa cha mẹ mà gắn bó với vợ mình và cả hai sẽ thành một xương một thịt. Vậy sự gì Thiên Chúa đã phối hợp, loài người không được phân li".',
+      'Chúa dạy rằng: "Sự gì Thiên Chúa đã phối hợp, loài người không được phân li".',
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Mục đích của Hôn nhân Công giáo là gì?",
+    options: [
+      "Mục đích Hôn nhân Công giáo là vợ chồng trọn đời yêu thương nhau, sinh sản và giáo dục con cái và cùng giúp nhau nên thánh.",
+      "Mục đích Hôn nhân Công giáo là vợ chồng trọn đời yêu thương nhau và cùng giúp nhau nên thánh.",
+      "Mục đích Hôn nhân Công giáo là vợ chồng trọn đời yêu thương nhau và giúp con cái cùng nên thánh.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Làm thế nào để đôi bạn sống trọn đời yêu thương nhau?",
+    options: [
+      "Để sống trọn đời yêu thương nhau, đôi bạn phải sống đạo tốt, đồng thời, phải tôn trọng phẩm giá và quyền lợi chính đáng của bạn đời của mình.",
+      "Để sống trọn đời yêu thương nhau, đôi bạn phải lưu ý đến nhu cầu cũng như sở thích của người bạn đời. Đồng thời, phải biết luôn làm mới bản thân mình về tâm hồn cũng như thể xác.",
+      "Để sống trọn đời yêu thương nhau, đôi bạn phải lưu ý đến những khác biệt về tâm sinh lý trong đời sống vợ chồng.",
+      "Cả a và c đúng.",
+    ],
+    answer: 3,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Việc sinh sản con cái có những ý nghĩa nào?",
+    options: [
+      "Thiên Chúa cho loài người được vinh dự cộng tác với Người trong việc tạo dựng; Con cái là hoa quả tốt đẹp của tình yêu vợ chồng.",
+      "Thiên Chúa cho loài người được vinh dự cộng tác với Người trong việc tạo dựng; Con cái là hoa quả tốt đẹp của tình yêu vợ chồng; Góp phần tăng thêm cộng đoàn nhân loại và phát triển Hội Thánh.",
+      "Thiên Chúa cho loài người được vinh dự cộng tác với Người trong việc tạo dựng; Con cái là hoa quả tốt đẹp của tình yêu vợ chồng, nên phải nuôi dạy và chăm sóc con cái sao cho xứng với quà tặng mà Thiên Chúa đã thương ban.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Bí tích Hôn nhân giúp đôi bạn nên thánh cách nào?",
+    options: [
+      "Nhờ ơn thiêng của Bí tích Hôn nhân, đôi bạn nên thánh trong niềm vui đón nhận nhau, sinh sản và giáo dục con cái.",
+      "Bí tích Hôn nhân giúp đôi bạn nên thánh trong niềm vui đón nhận nhau, hy sinh cho nhau và cùng nhau đi đến cuối con đường.",
+      "Bí tích Hôn nhân giúp đôi bạn nên thánh nhờ sự hy sinh và hiến thân cho nhau, để cùng nhau đi đến cuối con đường.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Giáo dục con cái là gì?",
+    options: [
+      "Giáo dục con cái là hướng dẫn và giúp chúng phát triển con người toàn diện về thể lý, trí tuệ và đức hạnh.",
+      "Giáo dục con cái là dành cho chúng tất cả tình yêu thương; hướng dẫn và dạy dỗ, giúp chúng phát triển con người toàn diện về thể lý, trí tuệ và đức hạnh.",
+      "Giáo dục con cái là hướng dẫn và giúp chúng phát triển con người toàn diện về thể lý, trí tuệ, đức hạnh và tôn giáo.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Việc cha mẹ giáo dục con cái hệ trọng thế nào?",
+    options: [
+      "Đối với cha mẹ, việc giáo dục con cái vừa là một bổn phận, vừa là một vinh dự, vì con cái chính là hào quang của cha mẹ.",
+      "Đối với cha mẹ, việc giáo dục con cái vừa là một bổn phận, vừa là một vinh dự, vì khi thi hành công việc ấy, họ cộng tác với Thiên Chúa chăm sóc mầm non quý giá cho xã hội và Hội Thánh.",
+      "Đối với cha mẹ, việc giáo dục con cái vừa là một bổn phận, vừa là một vinh dự, vì sự thành công hay thất bại của con cái cũng là sự thành công hay thất bại của cha mẹ.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Muốn giáo dục thành công, cha mẹ phải thế nào?",
+    options: [
+      "Muốn giáo dục thành công, cha mẹ phải: Thăng tiến và thánh hóa bản thân.",
+      "Muốn giáo dục thành công, cha mẹ phải: Nhất trí với nhau trong đường hướng và cách thức giáo dục.",
+      "Muốn giáo dục thành công, cha mẹ phải: Tạo bầu khí gia đình hòa thuận, thánh thiện và tín nhiệm nhau.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 3,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Luân lý tính dục trong đời sống Hôn nhân là gì?",
+    options: [
+      "Luân lý tính dục trong đời sống Hôn nhân là những lời dạy dỗ và giáo huấn của Giáo Hội, giúp cho đôi vợ chồng sống sao cho xứng với ơn gọi của họ trong giao ước hôn nhân.",
+      "Luân lý tính dục trong đời sống Hôn nhân là tính cách hợp pháp do chính Thiên Chúa thiết lập cho đời sống vợ chồng.",
+      "Luân lý tính dục trong đời sống Hôn nhân là những điều răn và giới luật, giúp cho đôi vợ chồng sống sao cho đúng với giáo huấn của Giáo Hội.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Luân lý tính dục có những nguyên tắc nào?",
+    options: [
+      "Các hành vi trao hiến vợ chồng, tự bản chất là lương thiện. Luân lý Công giáo tôn trọng thân xác, nhưng không quá đề cao hành vi giới tính.",
+      "Các hành vi trao hiến vợ chồng, tự bản chất là lương thiện. Luân lý Công giáo tôn trọng thân xác con người. Phải có sự tiết độ trong đời sống vợ chồng.",
+      "Các hành vi trao hiến vợ chồng, tự bản chất là lương thiện. Luân lý Công giáo tôn trọng thân xác, nhưng không quá đề cao hành vi giới tính. Phải có sự trong sạch và tiết độ trong đời sống vợ chồng.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Hội Thánh dạy thế nào về việc sinh sản con cái?",
+    options: [
+      "Sinh sản phải có trách nhiệm, nghĩa là khi sinh con, cha mẹ phải lo lắng chăm sóc, dưỡng dục, để chúng sống xứng đáng phẩm giá làm người và làm con Chúa. Do đó, đôi bạn cần suy xét thận trọng về sức khỏe, kinh tế, giáo dục… để có quyết định đúng đắn.",
+      "Sinh sản phải có trách nhiệm, nghĩa là khi sinh con, cha mẹ phải lo lắng chăm sóc, dưỡng dục, để chúng sống xứng đáng phẩm giá làm người và làm con Chúa.",
+      "Sinh sản phải có trách nhiệm. Do đó, đôi bạn cần suy xét thận trọng về sức khỏe, kinh tế, giáo dục… để có quyết định đúng đắn.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question:
+      "Để có quyết định đúng đắn về việc điều hòa sinh sản, đôi bạn phải có những yếu tố nào?",
+    options: [
+      "Đôi bạn phải có những yếu tố này: Lương tâm ngay thẳng và tinh thần trách nhiệm cao.",
+      "Đôi bạn phải có những yếu tố này: Lương tâm ngay thẳng, chân chính. Tinh thần trách nhiệm cao. Tuân giữ giáo huấn của Hội Thánh về việc điều hòa sinh sản.",
+      "Đôi bạn phải có những yếu tố này: Tinh thần trách nhiệm cao. Tuân giữ giáo huấn của Hội Thánh về việc điều hòa sinh sản.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Các Bí tích giúp gì cho đời sống đôi bạn?",
+    options: [
+      "Các Bí tích có mục đích thánh hóa loài người. Riêng đối với đôi bạn, các Bí tích, nhất là Bí tích Giải tội và Thánh Thể, còn thánh hóa tình yêu vợ chồng, ban nhiều ơn sủng, giúp đôi bạn chu toàn trách nhiệm đối với nhau và đối với con cái.",
+      "Các Bí tích có mục đích thánh hóa loài người, xây dựng nhiệm thể Chúa Ki-tô và thờ phượng Thiên Chúa. Riêng đối với đôi bạn, các Bí tích, nhất là Bí tích Giải tội và Thánh Thể, còn thánh hóa tình yêu vợ chồng, ban nhiều ơn sủng, giúp đôi bạn chu toàn trách nhiệm đối với nhau và đối với con cái.",
+      "Các Bí tích có mục đích thánh hóa loài người. Riêng đối với đôi bạn, các Bí tích còn thánh hóa tình yêu vợ chồng, ban nhiều ơn sủng, giúp đôi bạn chu toàn trách nhiệm đối với nhau và đối với con cái.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Hôn nhân liên hệ với Bí tích Rửa tội thế nào?",
+    options: [
+      "Hôn nhân có liên hệ, vì Bí tích Rửa tội là cửa ngõ vào Nước Trời, nên do tình thương và trách nhiệm, cha mẹ phải lo liệu cho con cái được rửa tội theo qui định của Hội Thánh.",
+      "Hôn nhân có liên hệ, vì chỉ những ai đã rửa tội mới có thể cử hành Bí tích Hôn nhân. Hơn nữa, Bí tích Rửa tội là cửa ngõ vào Nước Trời.",
+      "Có liên hệ cơ bản, vì chỉ những ai đã rửa tội mới có thể cử hành Bí tích Hôn nhân. Hơn nữa, Bí tích Rửa tội là cửa ngõ vào Nước Trời, nên do tình thương và trách nhiệm, cha mẹ phải lo liệu cho con cái được rửa tội theo qui định của Hội Thánh.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Cha mẹ phải lo liệu việc Rửa tội cho con cái thế nào?",
+    options: [
+      "Lúc bình thường: Sau khi sinh con khoảng 1 tháng, cha mẹ cùng người đỡ đầu, đem con đến nhà thờ để linh mục rửa tội.",
+      "Khi nguy tử: Cha mẹ hoặc người khác rửa tội cho con.",
+      "Trường hợp sẩy thai bất cứ vào giai đoạn nào cũng phải rửa tội.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 3,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question:
+      "Lời Chúa có cần thiết cho đời sống Hôn nhân và Gia đình Công giáo không?",
+    options: [
+      "Lời Chúa rất cần thiết cho đời sống Hôn nhân và Gia đình, vì: Lời Chúa là Lời tình yêu; Lời Chúa ban sự sống; Lời Chúa biểu lộ ý muốn của Thiên Chúa.",
+      "Lời Chúa rất cần thiết cho đời sống Hôn nhân và Gia đình, vì: Lời Chúa là Lời tình yêu đồng thời còn là Lời ban sự sống, giúp cho Hôn nhân ngày một trở nên hoàn thiện hơn.",
+      "Lời Chúa rất cần thiết cho đời sống Hôn nhân và Gia đình, vì: Lời Chúa là Lời tình yêu đồng thời còn là Lời ban sự sống, giúp cho đôi vợ chồng có thể trung thành và sống bên nhau trọn đời.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Phải đọc Lời Chúa thế nào?",
+    options: [
+      "Phải đọc Lời Chúa một cách cẩn trọng, trong Đức tin với tâm tình khiêm tốn, đơn sơ.",
+      "Phải đọc Lời Chúa một cách cẩn trọng, với tâm tình khiêm tốn, đơn sơ. Bởi vì, đọc Lời Chúa không giống như ta đọc một cuốn truyện hay một tác phẩm văn học. Có như vậy, mới mong hiểu được Lời của Ngài.",
+      "Phải đọc Lời Chúa trong Đức tin với tâm tình khiêm tốn, đơn sơ, trong ước muốn được dạy dỗ và trong tư thế sẵn sàng thực hiện điều Chúa dạy.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Đọc Lời Chúa trong gia đình thì được những ích lợi gì?",
+    options: [
+      "Khi đọc Lời Chúa trong gia đình, mọi người được hướng dẫn bởi cùng một giáo huấn nên dễ giúp nhau thực hành Lời Chúa hơn.",
+      "Khi đọc Lời Chúa trong gia đình, mọi người cùng được nghe, nên sẽ cùng được hướng dẫn bởi cùng một giáo huấn. Hơn nữa, chính Lời Chúa sẽ hướng dẫn từng thành viên, giúp họ biến đổi con người mình. Nhờ đó, mọi thành viên dễ giúp nhau thực hành Lời Chúa hơn.",
+      "Khi đọc Lời Chúa trong gia đình, mọi người không những được thánh hóa, nuôi dưỡng, mà còn được hướng dẫn bởi cùng một giáo huấn nên dễ giúp nhau thực hành Lời Chúa hơn.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Kinh nguyện trong gia đình có cần thiết không?",
+    options: [
+      "Rất cần thiết, vì qua giờ kinh gia đình, mọi thành viên trong gia đình có cơ hội ngồi lại bên nhau. Nhờ ánh sáng Lời Chúa soi chiếu, giúp gia đình sống tốt ơn gọi Ki-tô hữu và dạy con cái biết cầu nguyện.",
+      "Rất cần thiết, vì Kinh nguyện chung giúp gia đình sống tốt đẹp ơn gọi Ki-tô hữu và dạy con cái biết cầu nguyện.",
+      "Rất cần thiết, vì qua giờ kinh gia đình, mọi thành viên trong gia đình có cơ hội ngồi lại bên nhau. Nhờ ánh sáng Lời Chúa soi chiếu, giúp các thành viên trong gia đình sống tốt ơn gọi của mỗi người.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Giờ Kinh tối gia đình có những mục đích nào?",
+    options: [
+      "Cảm tạ Thiên Chúa vì những hồng ân đã lãnh nhận. Dâng niềm vui, nỗi buồn của gia đình và bản thân lên Chúa.",
+      "Kiểm điểm và giúp nhau kiểm điểm đời sống. Xin Chúa gìn giữ mọi người được an lành. Tăng thêm tình thân trong gia đình.",
+      "Xin Chúa gìn giữ mọi người được an lành và giúp tăng thêm tình thân trong gia đình.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 3,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question:
+      "Công Đồng Va-ti-ca-nô II nói thế nào về liên hệ giữa gia đình và Hội Thánh?",
+    options: [
+      'Công Đồng dạy: "Gia đình là tế bào của Hội Thánh. Nên để Hội Thánh nên vững mạnh, cần thiết phải củng cố và chăm lo cho Hôn nhân và Gia đình".',
+      'Công Đồng dạy: "Sự lành mạnh của con người cũng như của xã hội nhân loại và Ki-tô giáo liên kết chặt chẽ với tình trạng tốt đẹp của cộng đoàn Hôn nhân và Gia đình".',
+      'Công Đồng dạy: "Gia đình là tế bào của Hội Thánh. Từng gia đình hiệp nhất yêu thương, thì Hội Thánh cũng hiệp nhất và yêu thương, và ngược lại. Thế nên, để có một Hội Thánh vững mạnh, cần thiết phải củng cố và chăm lo cho Hôn nhân và Gia đình".',
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Hội Thánh liên hệ thế nào với gia đình?",
+    options: [
+      "Hội Thánh sinh ra, dưỡng dục và xây dựng gia đình Công Giáo.",
+      "Hội Thánh sinh ra gia đình, hay nói cách khác, gia đình là con cái và là một thành phần của Hội Thánh, nên gia đình và Hội Thánh có mối quan hệ hỗ tương với nhau.",
+      "Gia đình là một thành phần của Hội Thánh, nên gia đình và Hội Thánh có mối quan hệ hỗ tương với nhau, cả hai bên đều phụ thuộc lẫn nhau.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 0,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Gia đình liên hệ thế nào với Hội Thánh?",
+    options: [
+      "Gia đình là một thành phần của Hội Thánh, vì thế, gia đình dự phần vào sứ mệnh cứu rỗi của Hội Thánh theo cách thức riêng của mình.",
+      "Gia đình là một thành phần của Hội Thánh, nên gia đình và Hội Thánh có mối quan hệ hỗ tương với nhau, cả hai bên đều phụ thuộc lẫn nhau.",
+      "Gia đình dự phần vào sứ mệnh cứu rỗi của Hội Thánh theo cách thức riêng của mình.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 2,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Gia đình có nghĩa vụ gì đối với Hội Thánh?",
+    options: [
+      "Gia đình có nghĩa vụ Hiệp thông với Hội Thánh, đồng thời tuân giữ các giáo huấn của Hội Thánh.",
+      "Gia đình có nghĩa vụ Hiệp thông với Hội Thánh; tuân giữ các giáo huấn của Hội Thánh; thi hành 3 chức năng Tư tế, Ngôn sứ và Vương giả theo cách thức riêng của mình.",
+      "Gia đình có nghĩa vụ Hiệp thông với Hội Thánh, tuân giữ và thi hành 3 chức năng Tư tế, Ngôn sứ và Vương giả theo cách thức riêng của mình.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Gia đình và xã hội có liên hệ gì với nhau?",
+    options: [
+      "Gia đình là khung cảnh đầu tiên thể hiện tính xã hội của con người và là khung cảnh đầu tiên để con người tập dấn thân hoạt động xã hội.",
+      "Gia đình là Hội Thánh tại gia, là Trường học đầu tiên và là nơi ươm mầm đức tin cho con cái.",
+      "Gia đình là nền tảng của xã hội.",
+      "Cả a và c đúng.",
+    ],
+    answer: 3,
+  },
+  {
+    section: "Giáo lý hôn nhân",
+    question: "Gia đình và xã hội có những vấn đề gì đối với nhau?",
+    options: [
+      "Gia đình là một phần tử của xã hội, nên phải góp phần xây dựng xã hội; còn xã hội phải tôn trọng và giúp đỡ những quyền lợi căn bản của Gia đình.",
+      "Gia đình phải góp phần xây dựng xã hội theo tinh thần Phúc âm; còn xã hội phải tôn trọng và giúp đỡ những quyền lợi căn bản của Gia đình.",
+      "Gia đình là một phần tử của xã hội, nên phải góp phần xây dựng xã hội; còn xã hội phải tôn trọng và giúp đỡ những quyền lợi căn bản của Gia đình, giúp cho phẩm giá của Gia đình ngày một được nâng cao.",
+      "Cả a, b và c đúng.",
+    ],
+    answer: 1,
+  },
+  {
     section: "Phần Mở Đầu",
     question: "Thiên Chúa là Đấng nào?",
     options: [
@@ -3965,6 +4331,7 @@ const QUIZ_SIZE = 50;
 
 const SECTION_ORDER = [
   "all",
+  "Giáo lý hôn nhân",
   "Phần Mở Đầu",
   "Phần I – Thiên Chúa Đấng Tạo Hóa",
   "Phần II – Chúa Giêsu Đấng Cứu Thế",
@@ -3985,14 +4352,16 @@ export default function GiaoLyQuiz() {
   const [timeLeft, setTimeLeft] = useState(30);
   const [timerActive, setTimerActive] = useState(false);
 
-
-  const sectionCounts = SECTION_ORDER.reduce<Record<string, number>>((acc, s) => {
-    acc[s] =
-      s === "all"
-        ? ALL_QUESTIONS.length
-        : ALL_QUESTIONS.filter((q) => q.section === s).length;
-    return acc;
-  }, {});
+  const sectionCounts = SECTION_ORDER.reduce<Record<string, number>>(
+    (acc, s) => {
+      acc[s] =
+        s === "all"
+          ? ALL_QUESTIONS.length
+          : ALL_QUESTIONS.filter((q) => q.section === s).length;
+      return acc;
+    },
+    {},
+  );
 
   useEffect(() => {
     if (!timerActive || confirmed || phase !== "quiz") return;
@@ -4063,7 +4432,11 @@ export default function GiaoLyQuiz() {
     ? Math.round((score / quizQuestions.length) * 100)
     : 0;
   const timerColor =
-    timeLeft > 10 ? "text-amber-600" : timeLeft > 5 ? "text-orange-500" : "text-red-600";
+    timeLeft > 10
+      ? "text-amber-600"
+      : timeLeft > 5
+        ? "text-orange-500"
+        : "text-red-600";
   const progress = quizQuestions.length
     ? (current / quizQuestions.length) * 100
     : 0;
@@ -4104,7 +4477,9 @@ export default function GiaoLyQuiz() {
           </div>
 
           {/* Section picker */}
-          <p className="text-sm font-semibold text-amber-800 mb-3">Chọn phần thi:</p>
+          <p className="text-sm font-semibold text-amber-800 mb-3">
+            Chọn phần thi:
+          </p>
           <div className="flex flex-col gap-2 mb-4">
             {SECTION_ORDER.map((s) => (
               <button
@@ -4132,8 +4507,10 @@ export default function GiaoLyQuiz() {
 
           <p className="text-center text-sm text-amber-700 mb-6">
             Sẽ rút ngẫu nhiên{" "}
-            <strong>{Math.min(QUIZ_SIZE, sectionCounts[selectedSection])}</strong> câu từ{" "}
-            <strong>{sectionCounts[selectedSection]}</strong> câu
+            <strong>
+              {Math.min(QUIZ_SIZE, sectionCounts[selectedSection])}
+            </strong>{" "}
+            câu từ <strong>{sectionCounts[selectedSection]}</strong> câu
           </p>
 
           <button
@@ -4168,24 +4545,32 @@ export default function GiaoLyQuiz() {
           {/* Score circle */}
           <div className="flex justify-center mb-3">
             <div className="w-28 h-28 rounded-full bg-gradient-to-br from-amber-400 to-amber-600 flex flex-col items-center justify-center shadow-lg">
-              <span className="text-4xl font-black text-white leading-none">{score}</span>
-              <span className="text-sm text-amber-100">/{quizQuestions.length}</span>
+              <span className="text-4xl font-black text-white leading-none">
+                {score}
+              </span>
+              <span className="text-sm text-amber-100">
+                /{quizQuestions.length}
+              </span>
             </div>
           </div>
 
-          <p className="text-center text-base text-amber-700 mb-1">{pct}% câu đúng</p>
+          <p className="text-center text-base text-amber-700 mb-1">
+            {pct}% câu đúng
+          </p>
           <p className="text-center text-sm italic text-amber-800 mb-5">
             {pct >= 90
               ? "🌟 Xuất sắc! Bạn đã nắm vững Giáo lý Dự Tòng."
               : pct >= 70
-              ? "✅ Khá tốt! Ôn lại những câu còn sai nhé."
-              : pct >= 50
-              ? "📖 Trung bình. Hãy học lại tài liệu."
-              : "🙏 Cần cố gắng thêm. Đọc lại giáo lý rồi thi tiếp nhé!"}
+                ? "✅ Khá tốt! Ôn lại những câu còn sai nhé."
+                : pct >= 50
+                  ? "📖 Trung bình. Hãy học lại tài liệu."
+                  : "🙏 Cần cố gắng thêm. Đọc lại giáo lý rồi thi tiếp nhé!"}
           </p>
 
           {/* Review */}
-          <h3 className="font-bold text-amber-800 text-sm mb-3">Chi tiết trả lời</h3>
+          <h3 className="font-bold text-amber-800 text-sm mb-3">
+            Chi tiết trả lời
+          </h3>
           <div className="max-h-80 overflow-y-auto space-y-2 mb-5 pr-1">
             {answers.map((a, i) => {
               const correct = a.selected === a.correct;
@@ -4196,7 +4581,9 @@ export default function GiaoLyQuiz() {
                     correct ? "border-green-500" : "border-red-500"
                   }`}
                 >
-                  <p className="text-[10px] italic text-amber-600 mb-0.5">{a.section}</p>
+                  <p className="text-[10px] italic text-amber-600 mb-0.5">
+                    {a.section}
+                  </p>
                   <p className="text-xs text-stone-800 mb-1">
                     <strong>Câu {i + 1}:</strong> {a.question}
                   </p>
@@ -4208,8 +4595,8 @@ export default function GiaoLyQuiz() {
                     {a.selected === -1
                       ? "⏰ Hết giờ – chưa trả lời"
                       : correct
-                      ? `✓ Đúng: ${["A", "B", "C", "D"][a.correct]}. ${a.options[a.correct]}`
-                      : `✗ Sai – Đáp án đúng: ${["A", "B", "C", "D"][a.correct]}. ${a.options[a.correct]}`}
+                        ? `✓ Đúng: ${["A", "B", "C", "D"][a.correct]}. ${a.options[a.correct]}`
+                        : `✗ Sai – Đáp án đúng: ${["A", "B", "C", "D"][a.correct]}. ${a.options[a.correct]}`}
                   </p>
                 </div>
               );
@@ -4297,7 +4684,9 @@ export default function GiaoLyQuiz() {
                 btnClass += "bg-green-50 border-green-500 text-green-800";
               else if (idx === selected)
                 btnClass += "bg-red-50 border-red-400 text-red-700";
-              else btnClass += "bg-white border-amber-100 text-stone-400 opacity-60";
+              else
+                btnClass +=
+                  "bg-white border-amber-100 text-stone-400 opacity-60";
             } else if (selected === idx) {
               btnClass += "bg-amber-100 border-amber-500 text-amber-900";
             } else {
@@ -4305,7 +4694,11 @@ export default function GiaoLyQuiz() {
                 "bg-white border-amber-200 text-stone-700 hover:border-amber-400 hover:bg-amber-50";
             }
             return (
-              <button key={idx} className={btnClass} onClick={() => handleSelect(idx)}>
+              <button
+                key={idx}
+                className={btnClass}
+                onClick={() => handleSelect(idx)}
+              >
                 <span className="shrink-0 w-6 h-6 rounded-full bg-amber-500 text-amber-950 flex items-center justify-center text-xs font-bold mt-0.5">
                   {letter}
                 </span>
@@ -4336,7 +4729,9 @@ export default function GiaoLyQuiz() {
               onClick={handleNext}
               className="bg-gradient-to-r from-amber-500 to-amber-400 hover:from-amber-600 hover:to-amber-500 text-amber-950 font-bold py-2.5 px-8 rounded-2xl shadow transition-all active:scale-95"
             >
-              {current + 1 >= quizQuestions.length ? "Xem kết quả →" : "Câu tiếp theo →"}
+              {current + 1 >= quizQuestions.length
+                ? "Xem kết quả →"
+                : "Câu tiếp theo →"}
             </button>
           )}
         </div>
