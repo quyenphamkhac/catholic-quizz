@@ -18,6 +18,908 @@ type AnswerRecord = {
 
 const ALL_QUESTIONS: Question[] = [
   {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tông huấn \"Về các bổn phận của Gia đình\" (Familiaris Consortio) là của Đức Giáo Hoàng nào?",
+    "options": [
+      "Đức giáo hoàng Gioan XXIII.",
+      "Đức giáo hoàng Phaolô VI.",
+      "Đức giáo hoàng Gioan Phaolô II.",
+      "Đức giáo hoàng Biển Đức XVI."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tông huấn \"Về các bổn phận của Gia đình\" (Familiaris Consortio) được công bố năm nào?",
+    "options": [
+      "22/11/1981.",
+      "18/8/1998.",
+      "1/1/2000.",
+      "1/5/2010."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đây là những mặt tích cực liên quan đến đời sống hôn nhân gia đình trong thế giới hôm nay:",
+    "options": [
+      "Chú ý nhiều hơn đến phẩm chất của các tương quan liên vị trong hôn nhân.",
+      "Chú ý nhiều hơn đến sự sinh sản có trách nhiệm.",
+      "Chú ý nhiều hơn đến việc giáo dục trẻ em.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đây là những mặt tiêu cực liên quan đến đời sống hôn nhân gia đình trong thế giới hôm nay:",
+    "options": [
+      "Sự ly dị gia tăng.",
+      "Vết thương về sự phá thai.",
+      "Việc dùng các phương pháp triệt sản ngày càng nhiều.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Chúa Kitô đã đặt giáo dân làm \"những chứng nhân\" khi Ngài ban cho họ cảm thức đức tin và ơn sử dụng ngôn ngữ để sức mạnh của điều gì được sáng ngời trong đời sống thường ngày, trong gia đình và ngoài xã hội?",
+    "options": [
+      "Tin Mừng.",
+      "Lương tâm.",
+      "Lòng yêu thương.",
+      "Sự hy sinh."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Do ơn gọi riêng của mình, giáo dân có nhiệm vụ đặc biệt gì?",
+    "options": [
+      "Diễn giải lịch sử thế giới theo ánh sáng Đức Kitô.",
+      "Hoàn thành những nghĩa vụ trần thế.",
+      "Sống tốt giữa đời.",
+      "Thực thi công lý với mọi người."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Ngày nay gia đình phải đương đầu với thách đố quan trọng nào?",
+    "options": [
+      "Sự pha trộn bóng tối và ánh sáng.",
+      "Sự thiếu công ăn việc làm.",
+      "Sự mất an ninh xã hội.",
+      "Sự nghèo khổ."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Sự pha trộn giữa bóng tối và ánh sáng còn là một cuộc chiến giữa những mối tự do đối nghịch nhau, nói theo thánh Augustinô, một cuộc xung đột giữa 2 tình yêu: một bên là lòng yêu mến Thiên Chúa đến độ coi rẻ chính mình và một bên là lòng yêu mến mình đến độ coi rẻ điều gì?",
+    "options": [
+      "Thiên Chúa.",
+      "Mạng sống.",
+      "Của cải tiền tài.",
+      "Danh vọng."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đâu là nguyên nhân sâu xa của các dấu hiệu tiêu cực của xã hội ngày nay?",
+    "options": [
+      "Sự suy đồi trong quan niệm và trong kinh nghiệm về tự do.",
+      "Sự phát triển quá nhanh của xã hội.",
+      "Sự chịu đựng tai họa của thiên nhiên.",
+      "Sự bất công của xã hội."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Căn nguyên của những hiện tượng tiêu cực của xã hội ngày nay thường là sự suy đồi trong quan niệm và trong kinh nghiệm về tự do, người ta không còn coi tự do như khả năng thực hiện sự thật của ai và cho hôn nhân và gia đình?",
+    "options": [
+      "Thiên Chúa.",
+      "Lương tâm.",
+      "Giáo hội.",
+      "Xã hội."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Sống trong một thế giới đầy rẫy các dấu hiệu tiêu cực của xã hội và nhất là dưới ảnh hưởng của các phương tiện truyền thông đại chúng, lúc nào người tín hữu cũng tránh được việc bị lây nhiễm tình trạng các giá trị căn bản bị lu mờ. Đúng hay sai?",
+    "options": [
+      "Đúng.",
+      "Sai.",
+      "",
+      ""
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Sống trong một thế giới đầy rẫy các dấu hiệu tiêu cực, người Kitô hữu phải là những người tích cực xây dựng điều gì?",
+    "options": [
+      "Một nền nhân bản đích thực về gia đình.",
+      "Một nền giáo dục lễ giáo.",
+      "Một nền văn minh tình thương.",
+      "Một nền văn hóa sự sống."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đe dọa lớn nhất đối với gia đình hiện nay là:",
+    "options": [
+      "Những cái nhìn và những đề nghị nguy hại cho chân lý và phẩm giá con người.",
+      "Sự suy thoái của nền kinh tế thế giới.",
+      "Nạn nghèo đói gia tăng.",
+      "Nạn thất nghiệp lan tràn."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đe dọa lớn nhất đối với gia đình hiện nay là những cái nhìn và những đề nghị nguy hại cho chân lý và phẩm giá con người. Các cám dỗ này thường được nâng đỡ bởi các phương tiện truyền thông làm cho con người thế nào?",
+    "options": [
+      "Bị mất tự do và khả năng phán đoán khách quan.",
+      "Bị lôi kéo vào những hoạt động xã hội.",
+      "Xa rời chân lý.",
+      "Làm cho con người chống lại Giáo Hội."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tất cả Hội Thánh có bổn phận phải suy tư và dấn thân sâu xa để nền văn hóa mới đang ló dạng được thấm nhuần Tin Mừng cách thâm sâu, để làm gì?",
+    "options": [
+      "Các giá trị chân thật được nhìn nhận.",
+      "Các quyền của người nam và người nữ được bảo vệ.",
+      "Công lý được thăng tiến ngay trong các cơ cấu của xã hội.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Cần đặc biệt giáo dục lương tâm để làm gì?",
+    "options": [
+      "Để mỗi người có khả năng phán đoán và nhận ra được những phương tiện thích hợp để tự mình thực hiện theo đúng sự thật nguyên thủy của mình.",
+      "Để sống tốt trong xã hội đầy biến động.",
+      "Để biết rung cảm trước những đau khổ của anh chị em.",
+      "Để sống xứng đáng là Kitô hữu."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Người Kitô hữu cần phải thực hiện điều gì để có thể sống trung thành với niềm tin của mình trong thế giới hôm nay?",
+    "options": [
+      "Cần phải cầu nguyện liên tục.",
+      "Cần phải hiệp nhất với Giáo Hội.",
+      "Cần phải có một sự hoán cải liên lỉ trường kỳ.",
+      "Cần phải có một đức tin mạnh mẽ."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Trước sự bất chính do tội lỗi gây ra thường ngăn cản gia đình không thể thực sự tự thể hiện chính mình, tất cả chúng ta phải chống lại bằng cách nào?",
+    "options": [
+      "Đòi hỏi sự công bằng trong xã hội.",
+      "Từ bỏ ích kỷ riêng mình để bước theo Chúa Kitô thập giá.",
+      "Làm cho môi trường sống thấm nhuần yêu thương.",
+      "Tin Mừng hóa các nghĩa vụ trần thế."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tại sao Thiên Chúa tạo dựng con người?",
+    "options": [
+      "Vì muốn bầu bạn với con người.",
+      "Vì muốn con người làm chủ vũ trụ.",
+      "Vì muốn con người cai quản vũ trụ tạo thành.",
+      "Vì yêu thương."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Thiên Chúa tạo dựng con người theo hình ảnh Thiên Chúa và ghi khắc vào đó ơn gọi cũng như khả năng và trách nhiệm tương ứng. Ơn gọi đó mời gọi con người sống thế nào?",
+    "options": [
+      "Sống trọn bổn phận của con người.",
+      "Sống yêu thương và hiệp thông.",
+      "Sống phó thác vào Thiên Chúa.",
+      "Tin tưởng bước theo Thầy Chí Thánh."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tình yêu độc hữu, trung tín và tính dục của đôi vợ chồng phản ánh điều gì?",
+    "options": [
+      "Một xã hội hoàn hảo.",
+      "Mọi người tuân theo luật tự nhiên.",
+      "Tình yêu Thiên Chúa đối với Dân riêng Ngài.",
+      "Sự kiện toàn của lề luật."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tình yêu trung thành và khiết tịnh của bậc độc thân biểu hiện điều gì?",
+    "options": [
+      "Nước Thiên Chúa đang đến.",
+      "Tình yêu phổ quát, vô biên của Thiên Chúa đối với mọi dân tộc trên toàn thế giới.",
+      "Tình yêu của Thiên Chúa đối với Dân Ítraen.",
+      "Mọi người đều được Thiên Chúa yêu thương."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tại sao nói con người là một tinh thần nhập thể?",
+    "options": [
+      "Vì Con Thiên Chúa nhập thể làm người.",
+      "Vì là một linh hồn biểu lộ trong một thân xác và một thân xác sống động do một tinh thần bất tử.",
+      "Vì Thiên Chúa tạo dựng nên linh hồn bất tử.",
+      "Vì Thiên Chúa tạo dựng nên con người."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Con người là một tinh thần nhập thể nên nó được mời gọi sống thế nào?",
+    "options": [
+      "Sống yêu thương trong toàn thể duy nhất tính của nó.",
+      "Sống hòa đồng với mọi người.",
+      "Sống như con Thiên Chúa.",
+      "Sống theo lời dạy của Đức Giêsu."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tính dục là một thành phần làm nên tình yêu. Đúng hay sai?",
+    "options": [
+      "Đúng.",
+      "Sai.",
+      "",
+      ""
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tính dục là một thành phần làm nên tình yêu, trong đó, người nam và người nữ hiến thân trọn vẹn cho nhau đến chết. Đúng hay sai?",
+    "options": [
+      "Đúng.",
+      "Sai.",
+      "",
+      ""
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Khế ước hôn nhân là gì?",
+    "options": [
+      "Là sự lựa chọn có ý thức và tự do mà người nam nữ chấp nhận sống chung và chia sẻ tình yêu như chính Thiên Chúa đã muốn.",
+      "Là giao ước giữa người nam và nữ khi lập gia đình.",
+      "Là sự ràng buộc chung thủy của hôn nhân.",
+      "Là sự đòi hỏi trung thành của hôn nhân."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Định chế hôn nhân là một đòi hỏi tự bên trong khế ước tình yêu, được xác định công khai như giao ước duy nhất và tuyệt đối để nhờ đó đôi bạn có thể sống trung thành trọn vẹn ý định của Thiên Chúa. Đúng hay sai?",
+    "options": [
+      "Đúng.",
+      "Sai.",
+      "",
+      ""
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Hôn nhân của những người chịu phép rửa tội trở nên biểu tượng gì?",
+    "options": [
+      "Của giao ước mới và vĩnh cửu được ký kết trong máu Đức Kitô.",
+      "Của giao ước Thiên Chúa và Dân Người.",
+      "Tình yêu của Đức Kitô và Giáo Hội.",
+      "Tình yêu tự nhiên."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Thánh Thần mà Chúa đã đổ tràn xuống ban cho họ một trái tim mới, và làm cho cả hai nam nữ có khả năng gì?",
+    "options": [
+      "Sống trung thành với nhau.",
+      "Yêu thương như Đức Kitô đã yêu thương chúng ta.",
+      "Diễn tả tình yêu Thiên Chúa nhập thể.",
+      "Sống gia đình bác ái Kitô giáo."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Do phép Rửa tội, Hôn phối liên kết chặt chẽ người nam và người nữ với nhau, không thể tháo gỡ khi người này thuộc về người kia, họ thực sự biểu lộ điều gì?",
+    "options": [
+      "Tương quan giao ước giữa Thiên Chúa và Dân Ngài.",
+      "Tương quan giữa Đức Kitô và Hội Thánh Ngài.",
+      "Tương quan nhân vị.",
+      "Sự chung thủy của gia đình."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Qua dấu chỉ các bí tích, tình yêu của người nam và người nữ được nâng cao và đem vào trong tình bác ái hôn ước Đức Kitô, được sức mạnh cứu rỗi của Người nâng đỡ và làm chứng cho điều gì?",
+    "options": [
+      "Niềm hy vọng mai này được gặp gỡ Đức Kitô.",
+      "Tình yêu của Đức Kitô và Hội Thánh.",
+      "Những giá trị nhân bản của Kitô giáo.",
+      "Niềm hy vọng Kitô giáo."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Định chế hôn nhân và tình yêu vợ chồng đều quy hướng về điều gì?",
+    "options": [
+      "Việc truyền sinh.",
+      "Bảo vệ gia đình.",
+      "Giáo dục con cái.",
+      "Chỉ a và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Trong thực tế sâu xa nhất, tình yêu vốn cốt yếu là ân huệ và tình yêu vợ chồng làm cho họ có khả năng thực hiện được việc trao hiến lớn lao nhất, nhờ đó họ trở nên những người cộng tác với Thiên Chúa để thông ban điều gì?",
+    "options": [
+      "Sự sống cho một nhân vị khác.",
+      "Sự sống thần linh.",
+      "Sự kết hiệp mật thiết với Thiên Chúa.",
+      "Đời sống ân sủng."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Con cái là phản ánh và hiện thân của điều gì?",
+    "options": [
+      "Tình yêu vợ chồng.",
+      "Sự chung thủy trong hôn nhân.",
+      "Một gia đình đích thực.",
+      "Quà tặng của Thiên Chúa ban cho con người."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Cha mẹ được mời gọi để biến tình thương con cái thành dấu chỉ hữu hiệu cho chúng nhận ra được điều gì?",
+    "options": [
+      "Tình yêu Thiên Chúa.",
+      "Gia đình đích thực.",
+      "Cộng đồng yêu thương.",
+      "Tình yêu của Đức Kitô đối với Hội Thánh."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Nhờ Bí tích Rửa tội và sự giáo dục đức tin, con cái được dẫn vào đâu?",
+    "options": [
+      "Trong gia đình của Thiên Chúa là Hội Thánh.",
+      "Cộng đoàn yêu thương.",
+      "Thế giới hiện tại.",
+      "Thế giới mà Hội Thánh đang hiện diện."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình là chiếc nôi và là môi trường Hội Thánh làm gì?",
+    "options": [
+      "Hội nhập vào cộng đồng nhân loại.",
+      "Tỏa sáng tình yêu của Đức Kitô.",
+      "Gia tăng ân sủng cho cộng đồng.",
+      "Củng cố đức tin cho con người."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Bổn phận chính của mỗi gia đình Kitô hữu cần chu toàn là đào tạo một cộng đồng các ngôi vị tức gồm những con người biết sống yêu thương nhau. Đúng hay sai?",
+    "options": [
+      "Đúng.",
+      "Sai.",
+      "",
+      ""
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Bổn phận chính của mỗi gia đình Kitô hữu cần chu toàn là:",
+    "options": [
+      "Tham gia vào việc phát triển xã hội.",
+      "Phục vụ sự sống qua việc sinh sản và giáo dục con cái.",
+      "Tham dự vào đời sống và sứ vụ của Giáo Hội.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình được xây dựng và sống động nhờ tình yêu, là một cộng đồng các nhân vị nên bổn phận đầu tiên là phải sống thế nào?",
+    "options": [
+      "Sống trung thành chính thực tại của sự hiệp thông và cố gắng liên lỉ nhằm thăng tiến một cộng đồng đích thực các ngôi vị.",
+      "Sống yêu thương với mọi người.",
+      "Sống tình bác ái huynh đệ với mọi người.",
+      "Sống hiền lành giữa mọi người."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình được xây dựng và sống động nhờ điều gì?",
+    "options": [
+      "Tình yêu.",
+      "Ân sủng.",
+      "Sự hy sinh.",
+      "Lòng thủy chung."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Để sống với một người suốt cả đời, chúng ta cần xác quyết Tin Mừng tình yêu hôn nhân được xây dựng trên nền tảng và sức mạnh nào?",
+    "options": [
+      "Tình yêu.",
+      "Chính Đức Giêsu Kitô.",
+      "Phó thác.",
+      "Sự bền vững của gia đình."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Một đặc điểm khác của sự hiệp thông trong hôn nhân là tính cởi mở đến với sự hiệp thông với gia đình, cha mẹ và con cái, anh chị em với nhau, giữa bà con họ hàng. Đúng hay sai?",
+    "options": [
+      "Đúng.",
+      "Sai.",
+      "",
+      ""
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Làm thế nào để thể hiện sự tôn trọng phẩm giá của người phụ nữ?",
+    "options": [
+      "Cần đánh giá cao vai trò làm vợ và làm mẹ.",
+      "Cần phải giáo dục mọi người biết tôn trọng nhau.",
+      "Yêu mến những phụ nữ thành thật.",
+      "Kính trọng họ vì là hình ảnh của Thiên Chúa."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Bất cứ xúc phạm nào đối với phụ nữ cũng là xúc phạm đến ai?",
+    "options": [
+      "Đến Thiên Chúa.",
+      "Đến Giáo Hội.",
+      "Đến con người.",
+      "Chỉ a và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Người chồng và người cha Kitô hữu có lòng yêu thương nghiêm túc gánh vác trách nhiệm chu cấp đầy đủ cho cuộc sống hạnh phúc của gia đình. Quan trọng nhất là lo cho con cái hưởng điều gì?",
+    "options": [
+      "Một cuộc sống đầy đủ.",
+      "Một cuộc sống an bình.",
+      "Một nền giáo dục hoàn chỉnh.",
+      "Một sự tự tin."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tinh thần dấn thân hằng ngày của người cha trong cuộc sống lao động mưu sinh và chu cấp nhu cầu vật chất cho cả gia đình cũng dạy con cái điều gì?",
+    "options": [
+      "Tầm quan trọng của trách nhiệm.",
+      "Sự trung thành làm tốt công việc bổn phận mình.",
+      "Sự hy sinh đối với gia đình.",
+      "Chỉ a và b đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Bổn phận căn bản thứ hai của gia đình là phục vụ cho điều gì?",
+    "options": [
+      "Yêu thương.",
+      "Giáo dục.",
+      "Sự sống.",
+      "Ân sủng."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Cha mẹ được dự phần vào công trình sáng tạo của ai bằng việc truyền sinh làm cho hình ảnh Ngài được lưu truyền từ người này sang người khác qua việc giáo dục nhân bản và theo tinh thần Kitô giáo?",
+    "options": [
+      "Người cha.",
+      "Đức Kitô.",
+      "Thiên Chúa.",
+      "Giáo Hội."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Giáo Hội được trao phó trách nhiệm bảo vệ và thăng tiến phẩm giá con người và ơn gọi phục vụ sự sống của ai?",
+    "options": [
+      "Gia đình.",
+      "Thiên Chúa.",
+      "Giáo hội.",
+      "Con người."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Chỉ bằng cách luôn luôn sẵn sàng đón nhận món quà tặng là sự sống mà đôi bạn nam nữ thực hiện kế hoạch tình yêu vợ chồng theo ý định của ai?",
+    "options": [
+      "Bản thân.",
+      "Cha mẹ.",
+      "Giáo Hội.",
+      "Thiên Chúa."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đâu là nền tảng và bổn phận giáo dục của cha mẹ?",
+    "options": [
+      "Vì cha mẹ đã sinh ra con cái.",
+      "Vì xã hội trao phó.",
+      "Vì hội thánh trao phó.",
+      "Vì cộng đồng trao phó."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Vì tương quan giữa cha mẹ và con cái là một tình yêu không thể thay thế, nên quyền và bổn phận giáo dục của cha mẹ có tính cách độc đáo và cơ bản, đó cũng là một cái gì:",
+    "options": [
+      "Không thể thay thế.",
+      "Không thể chuyển nhượng.",
+      "Không thể khoán trắng cho người khác.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Bởi vì \"Đấng tạo hóa đã đặt gia đình làm nguồn gốc và nền tảng cho xã hội con người\" nên gia đình trở thành điều gì?",
+    "options": [
+      "Tế bào đầu tiên và sống động của xã hội.",
+      "Cộng đoàn gương mẫu của xã hội.",
+      "Gia đình sống động của nhân loại.",
+      "Một gia đình gương mẫu."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình không ngừng tiếp sức cho xã hội bằng việc gì?",
+    "options": [
+      "Phục vụ sự sống.",
+      "Phát triển tri thức.",
+      "Thăng tiến xã hội.",
+      "Bảo vệ quyền lợi của mọi người."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình là \"một Giáo Hội thu nhỏ\" và cùng chung phần vào sứ vụ của Giáo Hội để làm gì?",
+    "options": [
+      "Loan báo tình thương cứu độ của Thiên Chúa.",
+      "Trở thành con cái của Thiên Chúa.",
+      "Làm cho cộng đồng nhân loại nhận biết Thiên Chúa.",
+      "Mọi người nhận biết nhau là anh em."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tình yêu vợ chồng, sự tận tụy của cha mẹ đối với con cái và lòng kính trọng của con cái đối với cha mẹ. Tất cả đều là gì?",
+    "options": [
+      "Hồng ân của Thiên Chúa.",
+      "Một chứng từ mạnh mẽ cho xã hội.",
+      "Lời mời gọi yêu thương.",
+      "Trách nhiệm của gia đình Kitô hữu."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Sứ vụ của Chúa Giêsu Kitô được tập trung vào những nhiệm vụ chính nào?",
+    "options": [
+      "Ngôn sứ.",
+      "Tư tế.",
+      "Vương đế.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình tham dự vào nhiệm vụ ngôn sứ của Đức Kitô bằng cách nào?",
+    "options": [
+      "Trở nên một cộng đồng đức tin và loan báo Tin Mừng.",
+      "Trở nên một cộng đồng cầu nguyện với Thiên Chúa.",
+      "Trở nên một cộng đồng phục vụ nhân loại.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình Kitô giáo trở nên một chứng nhân có tính cách ngôn sứ bằng cách nào?",
+    "options": [
+      "Cầu nguyện liên lỉ.",
+      "Sống Lời Chúa mỗi ngày.",
+      "Phục vụ đồng loại.",
+      "Yêu thương mọi người."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Lời chứng của gia đình Kitô giáo bao gồm cả những điều gì?",
+    "options": [
+      "Tình yêu vợ chồng.",
+      "Việc chăm sóc con cái.",
+      "Những hy sinh hằng ngày.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình cầu nguyện là một trong những phương thế chủ yếu để chúng ta tiếp tục mối tương quan liên lỉ với ai?",
+    "options": [
+      "Giáo Hội.",
+      "Chúa Giêsu.",
+      "Các Tông đồ.",
+      "Con người."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Lời cầu nguyện phản ánh những niềm vui, nỗi buồn là tất cả những phần của cuộc đời nối kết lại với nhau. Qua việc cầu nguyện, chúng ta phó thác, tin tưởng vào điều gì?",
+    "options": [
+      "Lòng yêu thương của Thiên Chúa quan phòng.",
+      "Sự chăm sóc của Thiên Chúa.",
+      "Tình yêu cứu độ của Chúa Giêsu Kitô.",
+      "Lòng nhân hậu vô bờ của Cha yêu thương."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Vì đời sống cầu nguyện tối cần thiết cho sự phát triển điều gì, các bậc cha mẹ nên tạo cho con cái một môi trường và một mẫu mực cầu nguyện thích hợp để chúng có thể làm quen với nhịp sống cầu nguyện hằng ngày?",
+    "options": [
+      "Luân lý và thiêng liêng.",
+      "Đạo đức.",
+      "Nhân cách.",
+      "Nhân đức."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Cầu nguyện giúp cho con cái biết điều gì?",
+    "options": [
+      "Thiên Chúa luôn chăm sóc chúng ta và Người hằng sẵn sàng biểu lộ tình yêu của Người cho chúng ta.",
+      "Sống kết hợp với Thiên Chúa.",
+      "Sự quan phòng của Thiên Chúa.",
+      "Thiên Chúa là Cha yêu thương."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Gia đình với tư cách là dòng dõi vương giả được mời gọi phục vụ cho:",
+    "options": [
+      "Xã hội.",
+      "Những người bị bỏ rơi.",
+      "Những người nghèo.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Tin Mừng của Đức Kitô dạy chúng ta rằng dân tộc vương giả của Đức Kitô luôn luôn làm gì?",
+    "options": [
+      "Sẵn sàng phục vụ những người đang cần giúp đỡ.",
+      "Dấn thân hoạt động bác ái.",
+      "Đến với mọi người.",
+      "Thăm viếng những người đau yếu."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Việc chuẩn bị đời sống hôn nhân phải được thực hiện qua những giai đoạn này:",
+    "options": [
+      "Chuẩn bị xa: giáo dục nhân bản và đức tin, rèn luyện lương tâm và nhân cách.",
+      "Chuẩn bị gần: tìm hiểu về các bí tích và mọi khía cạnh của đời sống hôn nhân và gia đình.",
+      "Chuẩn bị tức thì: chuẩn bị hôn lễ.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Những người chịu phép hôn phối phải được chuẩn bị đầy đủ về nhân bản, luân lý và thiêng liêng cũng như các kiến thức và kỹ năng cần thiết theo kế hoạch hôn nhân gia đình của ai?",
+    "options": [
+      "Giáo Hội.",
+      "Gia đình.",
+      "Các bạn trẻ.",
+      "Thiên Chúa."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Khi không thể chuẩn bị đời sống hôn nhân đầy đủ 3 giai đoạn như thế, các mục tử cần phải lo liệu dạy dỗ hướng dẫn thế nào?",
+    "options": [
+      "Giúp những người kết hôn có được hiểu biết đầy đủ về ý nghĩa, sự thánh thiêng của bí tích hôn phối.",
+      "Giúp hiểu biết mục đích, đặc tính và những đòi buộc của hôn nhân Công giáo.",
+      "Giúp đôi bạn trẻ tiến lại gần với mầu nhiệm Chúa Giêsu Kitô hơn.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Vì tình yêu vợ chồng là dấu chỉ sống động của tình yêu hy sinh và trao ban sự sống của Chúa Giêsu dành cho ai?",
+    "options": [
+      "Con người.",
+      "Các bạn trẻ.",
+      "Hội Thánh.",
+      "Thiên Chúa."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Sau khi cử hành bí tích hôn phối, các đôi tân hôn được đối xử thế nào?",
+    "options": [
+      "Mời gọi họ gia nhập giáo xứ.",
+      "Cần tiếp tục hướng dẫn họ.",
+      "Cần tiếp tục nâng đỡ họ.",
+      "Chỉ b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Những người đạo đức hiểu biết và có đời sống đức tin trưởng thành cần phải hướng dẫn, nâng đỡ các đôi tân hôn để các đôi tân hôn làm gì?",
+    "options": [
+      "Có thể thích ứng và chu toàn trách nhiệm của mình trước cuộc sống.",
+      "Thăng tiến trong xã hội.",
+      "Gặp gỡ nhau thường xuyên.",
+      "Hòa đồng vào cộng đoàn."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Với các hiệp hội gia đình có tôn chỉ phục vụ các gia đình, Hội Thánh có những ý hướng nào?",
+    "options": [
+      "Hội Thánh hết sức quý trọng.",
+      "Hội Thánh nhìn nhận sự đóng góp ích lợi của họ.",
+      "Hội Thánh điều hành họ.",
+      "Chỉ có a và b đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Hội Thánh ước mong các gia đình Kitô hữu làm gì?",
+    "options": [
+      "Tích cực dấn thân tham gia ở mọi mức độ vào các tổ chức như thế.",
+      "Sống tốt giữa đời.",
+      "Làm cho môi trường xã hội thấm đẫm Tin Mừng.",
+      "Nâng đỡ mọi người."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Những gia đình có hoàn cảnh đặc biệt cần được quan tâm ưu tiên trong mục vụ gia đình là (nhóm 1):",
+    "options": [
+      "Gia đình di dân tìm việc làm.",
+      "Gia đình vị thành niên.",
+      "Gia đình già cả, neo đơn, nghèo khó.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Những gia đình có hoàn cảnh đặc biệt cần được quan tâm ưu tiên trong mục vụ gia đình là (nhóm 2):",
+    "options": [
+      "Gia đình vô gia cư.",
+      "Gia đình bị xâu xé vì ý thức hệ.",
+      "Gia đình bị kỳ thị.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Với những cặp hôn nhân hỗn hợp, Hội Thánh kêu gọi thi hành công tác mục vụ như thế nào?",
+    "options": [
+      "Giúp đôi bạn hiểu rõ giáo lý Công giáo về các đặc tính và đòi hỏi của hôn nhân.",
+      "Tôn trọng quyền tự do tôn giáo của nhau.",
+      "Giúp họ đạt được một sự quân bình khôn ngoan trong cuộc sống để giữ được sự an vui gia đình.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Với những cặp hôn nhân hỗn hợp, Hội Thánh kêu gọi giúp người phối ngẫu Công giáo phải làm gì?",
+    "options": [
+      "Biết làm chứng tá cho Tin Mừng.",
+      "Biết giáo dục tôn giáo và luân lý cho con cái theo Tin Mừng.",
+      "Phó thác mọi sự cho Chúa.",
+      "Chỉ a và b đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Đây là những gia đình có hoàn cảnh đặc thù mà mục vụ gia đình cần phải quan tâm:",
+    "options": [
+      "Hôn nhân thử.",
+      "Công giáo chỉ có hôn nhân dân sự.",
+      "Ly hôn, ly thân, không tái hôn.",
+      "Cả a, b và c đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Tông Huấn Gia Đình",
+    "question": "Những gia đình ly dị, tái hôn, chung sống không hôn nhân là những gia đình cần được chăm sóc, hỗ trợ đặc biệt để họ có thể có ngày điều chỉnh tình trạng của mình, để cuối cùng cũng được gì?",
+    "options": [
+      "Hợp thức hóa tình trạng hôn nhân.",
+      "Được kính trọng.",
+      "Hòa nhập với cộng đồng.",
+      "Được cứu độ."
+    ],
+    "answer": 3
+  },
+  {
     "section": "Giáo lý hôn nhân",
     "question": "Ai đã lập nên Hôn nhân?",
     "options": [
@@ -4772,6 +5674,7 @@ const QUIZ_SIZE = 50;
 const SECTION_ORDER = [
   "all",
   "Giáo lý hôn nhân",
+  "Tông Huấn Gia Đình",
   "Phần Mở Đầu",
   "Phần I – Thiên Chúa Đấng Tạo Hóa",
   "Phần II – Chúa Giêsu Đấng Cứu Thế",
