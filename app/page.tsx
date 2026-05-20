@@ -18,6 +18,446 @@ type AnswerRecord = {
 
 const ALL_QUESTIONS: Question[] = [
   {
+    "section": "Giáo lý hôn nhân",
+    "question": "Ai đã lập nên Hôn nhân?",
+    "options": [
+      "Tổ Tiên.",
+      "Thiên Chúa.",
+      "Chính quyền.",
+      "Xã hội."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Yếu tố căn bản của Hôn nhân là?",
+    "options": [
+      "Tình yêu.",
+      "Tiền của.",
+      "Sắc đẹp.",
+      "Tài năng."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hôn nhân có những mục đích nào?",
+    "options": [
+      "Yêu thương giúp đỡ lẫn nhau.",
+      "Sinh sản và giáo dục con cái.",
+      "A và B Đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hôn nhân Công giáo là?",
+    "options": [
+      "Là một ơn gọi.",
+      "Là Bí tích Chúa Giêsu đã lập.",
+      "A và B Đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Đặc tính Hôn nhân Công giáo là?",
+    "options": [
+      "Một vợ, Một chồng.",
+      "Không được ly dị.",
+      "A và B Sai.",
+      "A và B Đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Để Bí tích Hôn phối thành sự phải có điều kiện nào?",
+    "options": [
+      "Một nam và Một nữ đã rửa tội.",
+      "Tự do không bị ép buộc.",
+      "Bày tỏ ưng thuận và cử hành theo nghi thức Hội Thánh.",
+      "A, B, C đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Có bao nhiêu ngăn trở Hôn phối?",
+    "options": [
+      "12.",
+      "10.",
+      "5.",
+      "2."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Nghi thức Bí tích Hôn phối gồm mấy phần?",
+    "options": [
+      "Thẩm vấn đôi hôn phối về tự do, về yêu thương và đón nhận con cái.",
+      "Trao đổi lời thề hứa.",
+      "Làm phép và trao nhẫn cưới.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Phải sống thời kỳ Đính hôn thế nào?",
+    "options": [
+      "Cầu nguyện.",
+      "Học giáo lý Hôn nhân.",
+      "Chứng tỏ tình yêu trung thành, trong sạch, chung thủy.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Tình yêu vợ chồng có những đặc tính nào?",
+    "options": [
+      "Kết hợp nên một và trao hiến trọn vẹn.",
+      "Chung thủy Suốt đời và đón nhận con cái.",
+      "A và B Đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Vợ chồng có những bổn phận nào?",
+    "options": [
+      "Người nam với bổn phận làm chồng và làm cha.",
+      "Người nữ với bổn phận làm vợ và làm mẹ.",
+      "A và B đều Đúng.",
+      "A và B đều Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Sự khiết tịnh trong đời sống hôn nhân là gì?",
+    "options": [
+      "Làm chủ giới tính.",
+      "Ăn ở với nhau tiết độ.",
+      "Tôn trọng phẩm giá của nhau.",
+      "A, B, C đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Có tội nào phạm đến Đức khiết tịnh?",
+    "options": [
+      "Dâm ô, thủ dâm.",
+      "Tà dâm, khiêu dâm.",
+      "Mại dâm, hiếp dâm.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Làm thế nào để tạo sự hòa hợp vợ chồng?",
+    "options": [
+      "Hiểu rõ sự khác biệt của nhau.",
+      "Cảm thông nâng đỡ nhau.",
+      "A và B đều Đúng.",
+      "A và B đều Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Vợ chồng cần có thái độ nào khi xảy ra xung đột?",
+    "options": [
+      "Tự chủ, có thiện chí giải quyết vấn đề.",
+      "Đối thoại với nhau, làm lành.",
+      "Nhờ người hòa giải và Cầu nguyện.",
+      "A, B, C đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hôn nhân trọn vẹn là thế nào?",
+    "options": [
+      "Hôn nhân đã thành sự Bí tích.",
+      "Đã ăn ở với nhau.",
+      "Phải đủ hai yếu tố trên.",
+      "A đúng."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hội Thánh có quyền tháo cởi Hôn nhân trọn vẹn không?",
+    "options": [
+      "Không ai có thể tháo cởi vì đó là luật của Chúa.",
+      "Có thể tháo cởi vì đó là luật tự nhiên.",
+      "Cả A và B Sai.",
+      "Không biết."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Ly thân là gì?",
+    "options": [
+      "Là hai người không sống chung với nhau nữa.",
+      "Là hai người không sống chung nữa nhưng vẫn là vợ chồng.",
+      "Là hai người, không còn là vợ chồng nữa.",
+      "Các câu trên đều sai."
+    ],
+    "answer": 1
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Những người đã ly thân có được kết hôn với người khác không?",
+    "options": [
+      "Không, vì họ vẫn là vợ chồng trước mặt Chúa.",
+      "Có vì đó là luật Hội Thánh.",
+      "Cả A và B Sai.",
+      "Không biết."
+    ],
+    "answer": 0
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Gia đình Kitô hữu tham dự vào sứ mạng của Hội Thánh thế nào?",
+    "options": [
+      "Là một cộng đồng tin vào Tin Mừng.",
+      "Loan báo Tin Mừng cứu độ.",
+      "Đối thoại với Thiên Chúa và phục vụ con người.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Để thực hành linh đạo Hôn nhân gia đình, đôi vợ chồng cần sống thế nào?",
+    "options": [
+      "Tình yêu, sinh sản và giáo dục con cái.",
+      "Trung thành, hy sinh vác Thánh giá hằng ngày.",
+      "Làm chứng và loan báo Tin Mừng, siêng năng cầu nguyện.",
+      "A, B, C đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Các Bí tích giúp gì cho đời sống Hôn nhân?",
+    "options": [
+      "Thánh hóa tình yêu vợ chồng.",
+      "Ban nhiều ân sủng giúp chu toàn bổn phận.",
+      "A và B Đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Trong trường hợp khẩn cấp phải rửa tội thế nào?",
+    "options": [
+      "Lấy nước lã rồi đổ trên đầu người chịu phép rửa tội.",
+      "Và đọc Tên Thánh (…) Ta rửa con Nhân danh Cha và Con và Thánh Thần.",
+      "Cả A và B.",
+      "Chỉ A hoặc B."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Cầu nguyện là gì?",
+    "options": [
+      "Nâng tâm hồn lên thưa chuyện với Chúa.",
+      "Thờ lạy, cảm tạ Chúa.",
+      "Xin Chúa tha tội và ban ơn lành hồn xác.",
+      "A, B, C đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Sinh sản có trách nhiệm là gì?",
+    "options": [
+      "Phải xét hoàn cảnh, kinh tế của gia đình.",
+      "Phải nuôi dưỡng và giáo dục con cái.",
+      "Lúc đó mới quyết định sinh con.",
+      "A, B, C đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hỏi vì sao giáo dục con cái là bổn phận quan trọng nhất của cha mẹ?",
+    "options": [
+      "Vì cha mẹ cộng tác với Thiên Chúa trong việc tạo nên con người mới.",
+      "Bổn phận giáo dục con cái của cha mẹ không ai thay thế được.",
+      "A và B Đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Làm sao để việc giáo dục đạt kết quả tốt?",
+    "options": [
+      "Nhất trí với nhau về nêu gương trước.",
+      "Tìm hiểu con cái và tạo bầu khí yêu thương.",
+      "Kiên nhẫn và Cầu nguyện.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Vì sao con cái phải thảo hiếu cha mẹ?",
+    "options": [
+      "Vì là luật của Chúa.",
+      "Cha mẹ là người cộng tác với Chúa, trong việc sinh thành, nuôi dưỡng, giáo dục ta nên người.",
+      "A và B đều đúng.",
+      "A và B đều sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Con cái biểu lộ lòng hiếu thảo với cha mẹ thế nào?",
+    "options": [
+      "Khi các ngài còn sống phải yêu mến, tôn kính, vâng lời, chăm sóc và giúp đỡ.",
+      "Khi các ngài qua đời lo an táng, cầu nguyện và xin lễ.",
+      "Anh chị em phải yêu thương nhau, noi gương cha mẹ.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Đối với các dịp lễ của gia đình nên tổ chức thế nào?",
+    "options": [
+      "Đơn sơ phù hợp ý nghĩa ngày lễ.",
+      "Phù hợp Đức tin Công giáo.",
+      "A và B Đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Gia đình góp phần xây dựng xã hội cách nào?",
+    "options": [
+      "Tuân giữ luật pháp quốc gia.",
+      "Cộng tác công việc chung.",
+      "Giáo dục con cái thành người tốt có ích cho xã hội.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Giờ kinh tối trong gia đình có cần thiết không?",
+    "options": [
+      "Rất cần thiết vì là thời gian họp mặt vợ chồng, con cái sau ngày làm việc.",
+      "Gặp gỡ nhau và gặp gỡ Chúa, xin Chúa ban ơn giữ gia đình bình an và yêu thương.",
+      "A và B đều đúng.",
+      "A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Gia đình Kitô hữu có nên tham gia các hội đoàn giáo xứ không?",
+    "options": [
+      "Rất nên tham gia các hội đoàn như ca đoàn, hiền mẫu, gia trưởng.",
+      "Hòa nhập đời sống đức tin với cộng đoàn.",
+      "Đóng góp phần xây dựng của mình vào công việc của giáo xứ.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hỏi Bàn thờ Thiên Chúa trong gia đình phải như thế nào?",
+    "options": [
+      "Phải có tượng chuộc tội.",
+      "Có hoa, đèn, nến.",
+      "Phải sạch sẽ và đặt nơi cao trọng trong nhà.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Hỏi bàn thờ gia tiên được lập thế nào?",
+    "options": [
+      "Phải có di ảnh người đã khuất.",
+      "Đặt dưới bàn thờ Thiên Chúa.",
+      "Phải có hương, hoa, nến.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Phải giáo dục Đức tin cho con cái thế nào?",
+    "options": [
+      "Khi em bé mới sinh 1 hay 2 tháng thì bồng lên nhà thờ xin Cha rửa tội.",
+      "Tập cho các em làm Dấu Thánh Giá trong giờ kinh tối của gia đình và trước bữa ăn.",
+      "Khi đến tuổi gửi các em đến học các lớp giáo lý tại giáo xứ, cha mẹ theo dõi việc học và tham dự Thánh Lễ của con cái.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Khi các con có ơn gọi dâng mình cho Chúa thì cha mẹ phải làm gì?",
+    "options": [
+      "Không được ngăn cản ước muốn của các em.",
+      "Khuyến khích ơn gọi tu trì, liên lạc với Cha xứ để gửi các em vào Chủng viện hoặc Dòng tu.",
+      "Cả A và B Đúng.",
+      "Cả A và B Sai."
+    ],
+    "answer": 2
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Ơn gọi bậc sống gia đình có quan trọng và cần thiết không?",
+    "options": [
+      "Quan trọng và cần thiết.",
+      "Hôn nhân đã được Chúa Giêsu nâng lên hàng Bí tích.",
+      "Thêm số đông người Thờ phượng Chúa.",
+      "Các câu trên đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Ơn Chúa có cần thiết cho gia đình Kitô hữu không?",
+    "options": [
+      "Rất cần thiết.",
+      "Không có ơn Chúa, các gia đình dễ tan vỡ.",
+      "Nhờ ơn Chúa giúp gia đình sẽ vượt qua khó khăn đời sống gia đình.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
+    "section": "Giáo lý hôn nhân",
+    "question": "Khi gia đình gặp sự khốn khó thì phải làm gì?",
+    "options": [
+      "Phải chạy đến với Mẹ Maria xin Mẹ can thiệp.",
+      "Làm Tuần Cửu Nhật kính Đức Mẹ.",
+      "Tin tưởng và phó thác vào tình thương của Chúa Giêsu.",
+      "Các câu trên đều đúng."
+    ],
+    "answer": 3
+  },
+  {
     section: "Giáo lý hôn nhân",
     question: "Hôn nhân là gì?",
     options: [
@@ -4485,19 +4925,17 @@ export default function GiaoLyQuiz() {
               <button
                 key={s}
                 onClick={() => setSelectedSection(s)}
-                className={`flex items-center justify-between rounded-xl px-4 py-3 text-sm font-medium transition-all border-2 ${
-                  selectedSection === s
-                    ? "bg-amber-500 border-amber-600 text-white shadow-md"
-                    : "bg-white border-amber-200 text-amber-800 hover:border-amber-400"
-                }`}
+                className={`flex items-center justify-between rounded-xl px-4 py-3 text-sm font-medium transition-all border-2 ${selectedSection === s
+                  ? "bg-amber-500 border-amber-600 text-white shadow-md"
+                  : "bg-white border-amber-200 text-amber-800 hover:border-amber-400"
+                  }`}
               >
                 <span>{s === "all" ? "🌐 Tất cả phần" : s}</span>
                 <span
-                  className={`text-xs px-2 py-0.5 rounded-full ${
-                    selectedSection === s
-                      ? "bg-amber-600 text-white"
-                      : "bg-amber-100 text-amber-600"
-                  }`}
+                  className={`text-xs px-2 py-0.5 rounded-full ${selectedSection === s
+                    ? "bg-amber-600 text-white"
+                    : "bg-amber-100 text-amber-600"
+                    }`}
                 >
                   {sectionCounts[s]} câu
                 </span>
@@ -4577,9 +5015,8 @@ export default function GiaoLyQuiz() {
               return (
                 <div
                   key={i}
-                  className={`rounded-lg p-3 bg-white border-l-4 ${
-                    correct ? "border-green-500" : "border-red-500"
-                  }`}
+                  className={`rounded-lg p-3 bg-white border-l-4 ${correct ? "border-green-500" : "border-red-500"
+                    }`}
                 >
                   <p className="text-[10px] italic text-amber-600 mb-0.5">
                     {a.section}
@@ -4588,9 +5025,8 @@ export default function GiaoLyQuiz() {
                     <strong>Câu {i + 1}:</strong> {a.question}
                   </p>
                   <p
-                    className={`text-xs font-semibold ${
-                      correct ? "text-green-600" : "text-red-600"
-                    }`}
+                    className={`text-xs font-semibold ${correct ? "text-green-600" : "text-red-600"
+                      }`}
                   >
                     {a.selected === -1
                       ? "⏰ Hết giờ – chưa trả lời"
